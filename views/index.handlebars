@@ -1,0 +1,21 @@
+<div id="wrapper">
+      <h1 id="page-title">NBA Newscrapper</h1>
+      <h3 id="sub-title"><i>NBA news from the <a id="realGM" href="https://basketball.realgm.com/news">RealGM Wiretap</a></i></h3>
+      <div id="articles">
+        <div id="scrape-div">
+          <button type="button" id="scrape">Get Newest Articles</button>
+        </div>
+        <h4 style="text-align:center">Click on an article title to view content</h4>
+          <ul id="article-feed">
+            {{#each news}}
+              {{> news/new-block}}
+              <br>
+            {{/each}}
+          </ul>
+      </div>
+      <div id="right-panel">
+        <div id="article-summary"></div>
+        <ul id="comments"></ul>
+        <div id="notes"></div>
+      </div>
+</div>

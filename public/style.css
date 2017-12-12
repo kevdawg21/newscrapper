@@ -1,0 +1,130 @@
+body { 
+  background-image: url("./gsw.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#page-title {
+  text-align: center;
+  color: darkblue;
+}
+
+#sub-title {
+  text-align: center;
+  color: darkblue;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightblue;
+}
+
+#wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 2%;
+  background-color: #fff;
+  border: 1px solid blue;
+  box-sizing: border-box;
+  overflow: auto;
+}
+#articles {
+  display: inline-block;
+  overflow: auto;
+  width: 48%;
+  margin-right: 2%;
+  font-size: 10pt;
+  border-right: 1px solid lightblue;
+  height: 600px;
+}
+#right-panel {
+  float:right;
+  width:47%;
+  margin-right: 2%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#article-summary {
+  /* float:right; */
+  margin-bottom:20px;
+}
+#notes {
+  /* float:right; */
+}
+textarea, input {
+  display: block;
+  width: 100%;
+  background-color: #FCF5C7;
+}
+input {
+  height: 36px;
+  font-size: 24px;
+}
+textarea {
+  height: 200px;
+  font-size: 18px;
+}
+
+.link {
+  font-size: 8pt;
+  color:blue;
+}
+
+#realGM {
+  color:blue;
+}
+
+#titleinput {
+  margin-bottom: 10px;
+  font-size: 10pt;
+  background-color: lightgray;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#bodyinput {
+  margin-bottom: 10px;
+  font-size: 10pt;
+  background-color: lightgray;
+  padding-top:5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#summary-body {
+  font-size: 10pt;
+}
+
+#art {
+  margin-bottom: 10px;
+}
+
+#scrape {
+  background-color: blue;
+  color:white;
+  border: 2px solid darkblue;
+}
+
+#scrape-div {
+  text-align: center;
+}
+
+.comment-title {
+  font-size: 10pt;
+}
+
+.comment-body {
+  font-size: 10pt;
+}
+
+li {
+  background-color: lightblue;
+  padding: 1%;
+  width: 95%;
+}
